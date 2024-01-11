@@ -10,6 +10,7 @@
       </v-flex>
       <v-flex xs6>
         <ListAdd @memoListAdd="memoListAdd" />
+        <!-- <ListAdd @listchage="listchage" /> -->
       </v-flex>
     </v-layout>
   </v-container>
@@ -43,6 +44,9 @@ export default {
       this.memoList.splice(index, 1);
       // index번째거 1개 지우기
     },
+    // listchage(memo, index) {
+    //   this.memoList[index].memo = memo;
+    // },
   },
 };
 </script>

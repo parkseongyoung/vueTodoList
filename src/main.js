@@ -1,4 +1,12 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+// export const eventBus = new Vue({
+//   methods: {
+//     memoEdit(memo, index) {
+//       this.$emit("memoEdit", memo, index);
+//     },
+//   },
+// });
+
+createApp(App).mount("#app");
