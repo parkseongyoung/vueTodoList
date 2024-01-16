@@ -30,15 +30,8 @@
 </template>
 
 <script>
-// import { eventBus } from "./main";
-
 export default {
   props: ["memoList"],
-  // methods: {
-  //   memoEdit(memo, index) {
-  //     eventBus.memoEdit(memo, index);
-  //   },
-  // },
 };
 </script>
 
