@@ -18,13 +18,6 @@
       >
       <span class="taskDel" @click="$emit('taskDel', index)">....삭제</span
       ><!-- 삭제하기 -->
-      <!-- <span
-        class="changetext"
-        @click="memoEdit(list.memo, index)"
-        v-if="list.status === 'created'"
-        >....변경</span
-      > -->
-      <!-- 이벤트버스를 활용하여 메모변경하기 -->
     </li>
   </div>
 </template>

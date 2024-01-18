@@ -1,19 +1,18 @@
 <template>
-  <v-container>
-    <v-layout row wrap>
-      <v-flex xs6>
+  <div>
+    <div>
+      <div>
         <doList
           :memoList="memoList"
           @taskcompl="taskcompl"
           @taskDel="taskDel"
         />
-      </v-flex>
-      <v-flex xs6>
+      </div>
+      <div>
         <ListAdd @memoListAdd="memoListAdd" />
-        <!-- <ListAdd @listchage="listchage" /> -->
-      </v-flex>
-    </v-layout>
-  </v-container>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -44,9 +43,6 @@ export default {
       this.memoList.splice(index, 1);
       // index번째거 1개 지우기
     },
-    // listchage(memo, index) {
-    //   this.memoList[index].memo = memo;
-    // },
   },
 };
 </script>
